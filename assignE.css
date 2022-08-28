@@ -1,0 +1,59 @@
+.container{
+    height: 9rem;
+    width: 30rem;
+    background-color: ghostwhite;
+    font-size: 35px;
+    font-family: "Trirong", serif;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+body{
+    margin: 10rem;
+}
+
+.btn{
+    height: 3.5rem;
+    width: 6rem;
+    color: #333333;
+    box-shadow:  0 5px 8px 0 rgb(186, 185, 185);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.hide{
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    background: #cccccc;
+}
+
+.num{
+    font-size: 1.5rem;
+    top: -10px;
+    right: -10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: blue;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
